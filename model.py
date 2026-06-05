@@ -9,7 +9,7 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 #  LOAD & INITIAL CLEANING
-df = pd.read_csv("traffic_predicition/delhi_traffic_features.csv")
+df = pd.read_csv("delhi_traffic_features.csv")
 df.drop(columns=['Trip_ID', 'start_area', 'end_area'], inplace=True)
 
 #  ENCODING (Using One-Hot for maximum R2 accuracy)
