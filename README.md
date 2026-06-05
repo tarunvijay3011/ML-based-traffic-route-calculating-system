@@ -250,6 +250,25 @@ User Interface (Streamlit)
 
 ---
 
+**#Project Structure**
+```
+traffic-route-optimizer/
+│
+├── app.py
+├── train_model.py
+├── requirements.txt
+├── README.md
+│
+├── traffic_predicition/
+│   ├── delhi_traffic_features.csv
+│   └── traffic_prediction_model.pkl
+│
+├── delhi_traffic_weights.csv
+├── model_intercept.txt
+│
+└── screenshots/
+```
+
 # Future Enhancements
 
 * Real-time traffic API integration
