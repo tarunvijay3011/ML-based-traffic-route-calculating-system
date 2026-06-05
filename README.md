@@ -258,14 +258,10 @@ traffic-route-optimizer/
 ├── train_model.py
 ├── requirements.txt
 ├── README.md
-│
-├── traffic_predicition/
-│   ├── delhi_traffic_features.csv
-│   └── traffic_prediction_model.pkl
-│
+│── delhi_traffic_features.csv
+│── traffic_prediction_model.pkl
 ├── delhi_traffic_weights.csv
 ├── model_intercept.txt
-│
 └── screenshots/
 ```
 
