@@ -44,7 +44,7 @@ div[data-testid="stMetricValue"] {
 # -------------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load("traffic_predicition/traffic_prediction_model.pkl")
+    return joblib.load("traffic_prediction_model.pkl")
 
 try:
     bundle = load_model()
@@ -133,7 +133,7 @@ def get_current_day_time():
 # -------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("traffic_predicition/delhi_traffic_features.csv")
+    return pd.read_csv("delhi_traffic_features.csv")
 
 try:
     df = load_data()
