@@ -15,6 +15,10 @@ The objective of this project is to use Machine Learning to predict traffic spee
 
 ---
 
+<img width="1923" height="1078" alt="Screenshot 2026-06-05 190024" src="https://github.com/user-attachments/assets/e5c796b5-ccf1-4ed6-802d-637c176f1caa" />
+
+---
+
 # How the System Works
 
 The project operates in two major phases:
